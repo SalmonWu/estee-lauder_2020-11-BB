@@ -1,0 +1,61 @@
+/*-----------------------------------------------------------------------------
+ * [TABLE OF CONTENTS]
+ *    +header
+ *		=
+ *    +main
+ *		=
+ *-----------------------------------------------------------------------------
+
+@import variable
+@import mixin
+
+/**
+ **
+ ** =header
+ **
+ **
+.nav-top
+  position: absolute
+  +breakpoint($sm-up)
+      left: calc(50% - 10px)
+      margin-left: -375px
+      transform: translateY(-200%)
+
+
+/**
+ **
+ ** =main
+ **
+ **
+
+main#top-level
+  width: 100%
+  max-width: 750px
+  margin: 0 auto
+  .col-12
+    flex-wrap: nowrap
+  .col
+    padding-left: 0
+    padding-right: 0
+  article
+    background-color: #fff
+  .img-fluid
+    display: block
+    width: 100%
+    max-width: 100%
+    height: auto
+  .nav
+    flex-wrap: nowrap
+    z-index: 1
+    height: auto
+    // position: -webkit-sticky
+    // position: sticky
+    // top: 0
+  .nav-top
+    top: 54px
+    max-width: 750px
+    +breakpoint($sm-up)
+      left: calc(50% - 10px)
+      margin-left: -375px
+    
+    

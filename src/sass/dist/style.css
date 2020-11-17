@@ -1,0 +1,79 @@
+/*-----------------------------------------------------------------------------
+ * * [TABLE OF CONTENTS]
+ * *    +header
+ * *		=
+ * *    +main
+ * *		=
+ * *----------------------------------------------------------------------------- */
+/*-----------------------------------------------------------------------------
+ * * [TABLE OF CONTENTS]
+ * *    +Breakpoint
+ * *    +Color
+ * *----------------------------------------------------------------------------- */
+/* +Breakpoint
+ * **---------------------------------------------------------------------------- */
+/* +Color
+ * **---------------------------------------------------------------------------- */
+/*-----------------------------------------------------------------------------
+ * * [TABLE OF CONTENTS]
+ * *    +Breakpoint
+ * *----------------------------------------------------------------------------- */
+/* +Breakpoint
+ * **---------------------------------------------------------------------------- */
+/**
+ * **
+ * ** =header
+ * **
+ * ** */
+.nav-top {
+  position: absolute;
+}
+@media screen and (min-width: 750px) {
+  .nav-top {
+    left: calc(50% - 10px);
+    margin-left: -375px;
+    transform: translateY(-200%);
+  }
+}
+
+/**
+ * **
+ * ** =main
+ * **
+ * ** */
+main#top-level {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+main#top-level .col-12 {
+  flex-wrap: nowrap;
+}
+main#top-level .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+main#top-level article {
+  background-color: #fff;
+}
+main#top-level .img-fluid {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+main#top-level .nav {
+  flex-wrap: nowrap;
+  z-index: 1;
+  height: auto;
+}
+main#top-level .nav-top {
+  top: 54px;
+  max-width: 750px;
+}
+@media screen and (min-width: 750px) {
+  main#top-level .nav-top {
+    left: calc(50% - 10px);
+    margin-left: -375px;
+  }
+}
